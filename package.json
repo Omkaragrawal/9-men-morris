@@ -1,0 +1,32 @@
+{
+  "name": "9-men-morris",
+  "version": "0.0.0",
+  "private": true,
+  "description": "it is a strategy board game for exactly 2 players. You can learn more on https://en.wikipedia.org/wiki/Nine_men%27s_morris",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omkaragrawal/9-men-morris.git"
+  },
+  "author": "OMKAR AGRAWAL <omkaragrawal.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Omkaragrawal/9-men-morris/issues"
+  },
+  "homepage": "https://github.com/Omkaragrawal/9-men-morris#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "logger": "0.0.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
